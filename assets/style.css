@@ -1,0 +1,93 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+header {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  justify-content: space-around;
+  margin: auto;
+  display: inline-flexbox;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.bar {
+  background-color: #f9f9fb;
+  padding:15px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+}
+.content {
+  max-width: 1440px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.anchors {
+  border-left: solid 1px #cdcdcd;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.sidebar {
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 5px;
+  border-right: solid 1px #cdcdcd;
+}
+figure {
+  text-align: center;
+}
+.indicacao {
+  justify-content: center;
+  display: table;
+  width: 100%;
+  font-size: 15px;
+  margin: 0 auto;
+  border-collapse: separate;
+  color: #777;
+  margin-bottom: 20px;
+}
+.indicacao th {
+  justify-content: right;
+  align-items: center;
+  color: #777;
+  background-color: #000;
+  padding: 0.5em;
+}
+.indicacao td {
+  justify-content: right;
+  color: black;
+  background-color: lightgray;
+  text-align: left;
+ }
+.indicacao thead tr td {
+  text-align: center;
+  color: black;
+}
+.footer {
+  min-height: 100px;
+  border-top: solid 1px #cdcdcd;
+}
+.footer-text {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 0%;
+}
