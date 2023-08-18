@@ -3,7 +3,7 @@
 **Título:** Recriando Wikipedia, com um layout melhor :)
  ### 👁 O resultado
 
-![localhost_4200_ (1)]()
+![localhost_4200_ (1)](https://github.com/IaraTassi/desafio-trilha-html-wikipedia/blob/master/orgulho%20e%20preconceito.png)
 
 ## Objetivo
 Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
